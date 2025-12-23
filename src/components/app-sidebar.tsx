@@ -260,6 +260,12 @@ const data: SideBarItem[] = [
         parent: "Social Media",
         parentUrl: "https://www.instagram.com/armaan_.23._",
       },
+      {
+        title: "Portfolio",
+        url: "https://portfolio-armaan-budhiraja.vercel.app/",
+        parent: "Social Media",
+        parentUrl: "https://portfolio-armaan-budhiraja.vercel.app/",
+      },
     ],
   },
 ];
