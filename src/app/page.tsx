@@ -27,7 +27,7 @@ export default function Page() {
         <Card className="md:col-span-2">
           <CardHeader>
             <CardTitle className="text-2xl">Feature Showcase</CardTitle>
-            <CardDescription>Discover what makes V-UI special</CardDescription>
+            <CardDescription>Discover what makes A-UI special</CardDescription>
           </CardHeader>
           <CardContent className="grid gap-4 sm:grid-cols-2">
             <FeatureCard
@@ -54,7 +54,7 @@ export default function Page() {
         </Card>
         <Card className="w-full max-w-md">
           <CardHeader>
-            <CardTitle>Why V-UI?</CardTitle>
+            <CardTitle>Why A-UI?</CardTitle>
             <CardDescription>
               Designed for developers, by developers
             </CardDescription>
@@ -93,21 +93,21 @@ export default function Page() {
           <CardTitle className="text-2xl">Meet the Creator</CardTitle>
         </CardHeader>
         <CardContent className="flex flex-col md:flex-row gap-8 items-center">
-          <Image
+          <img
             src="/profile.jpg"
-            alt="Vardaan"
+            alt="Armaan"
             width={200}
             height={200}
             className="rounded-full"
           />
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold">Vardaan</h3>
+            <h3 className="text-xl font-semibold">Armaan</h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Creator & Developer of V-UI
+              Creator & Developer of A-UI
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 max-w-lg">
               Passionate front-end developer with a background in competitive
-              coding. V-UI is the culmination of my experience with tools like
+              coding. A-UI is the culmination of my experience with tools like
               Framer Motion, Tailwind, and shadcn/ui, created to make UI design
               faster and more beautiful.
             </p>

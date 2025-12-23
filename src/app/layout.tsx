@@ -37,12 +37,12 @@ export default function RootLayout({
     <ProviderElement>
       <html lang="en">
         <head>
-          <title>V-UI</title>
+          <title>A-UI</title>
           <link rel="icon" href="/favicon.ico" type="image/x-icon" />
           <meta name="description" content="Description of your product" />
           <meta
             name="keywords"
-            content="vui, UI, UI Library, framer-motion, motion, animated, components, tailwind, aceternity"
+            content="a-ui, UI, UI Library, framer-motion, motion, animated, components, tailwind, aceternity"
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </head>
