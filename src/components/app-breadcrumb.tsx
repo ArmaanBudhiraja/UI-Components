@@ -24,7 +24,7 @@ export default function AppBreadcrumb() {
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem className="hidden md:block">
-          <BreadcrumbLink href="#">V UI</BreadcrumbLink>
+          <BreadcrumbLink href="#">A UI</BreadcrumbLink>
         </BreadcrumbItem>
         {pathname.length > 1 && (
           <>
