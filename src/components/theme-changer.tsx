@@ -19,7 +19,7 @@ export default function ThemeChanger() {
       <Github
         className="absolute right-[2.8rem] sm:right-16 cursor-pointer"
         onClick={() =>
-          window.open("https://github.com/Vardaan-02/UI-Library", "_black")
+          window.open("https://github.com/ArmaanBudhiraja/UI-Components", "_black")
         }
       />
       <motion.button

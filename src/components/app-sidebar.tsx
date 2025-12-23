@@ -237,28 +237,28 @@ const data: SideBarItem[] = [
     items: [
       {
         title: "GitHub",
-        url: "https://github.com/Vardaan-02",
+        url: "https://github.com/ArmaanBudhiraja",
         parent: "Social Media",
-        parentUrl: "https://github.com/Vardaan-02",
+        parentUrl: "https://github.com/ArmaanBudhiraja",
       },
       {
         title: "Gmail",
-        url: "https://mail.google.com/mail/?view=cm&fs=1&to=vardaanpahwa02@gmail.com",
+        url: "https://mail.google.com/mail/?view=cm&fs=1&to=armaanbudhiraja88503@gmail.com",
         parent: "Social Media",
         parentUrl:
-          "https://mail.google.com/mail/?view=cm&fs=1&to=vardaanpahwa02@gmail.com",
+          "https://mail.google.com/mail/?view=cm&fs=1&to=armaanbudhiraja88503@gmail.com",
       },
       {
         title: "LinkedIn",
-        url: "https://www.linkedin.com/in/vardaan-pahwa-6936a3319/",
+        url: "https://www.linkedin.com/in/armaanbudhiraja/",
         parent: "Social Media",
-        parentUrl: "https://www.linkedin.com/in/vardaan-pahwa-6936a3319/",
+        parentUrl: "https://www.linkedin.com/in/armaanbudhiraja/",
       },
       {
         title: "Instagram",
-        url: "https://www.instagram.com/vardaan_02",
+        url: "https://www.instagram.com/armaan_.23._",
         parent: "Social Media",
-        parentUrl: "https://www.instagram.com/vardaan_02",
+        parentUrl: "https://www.instagram.com/armaan_.23._",
       },
     ],
   },
