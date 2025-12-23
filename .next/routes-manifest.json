@@ -1,0 +1,185 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/components/code-snippet",
+      "regex": "^/components/code\\-snippet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/code\\-snippet(?:/)?$"
+    },
+    {
+      "page": "/components/color-picker",
+      "regex": "^/components/color\\-picker(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/color\\-picker(?:/)?$"
+    },
+    {
+      "page": "/components/combo-box",
+      "regex": "^/components/combo\\-box(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/combo\\-box(?:/)?$"
+    },
+    {
+      "page": "/components/corousal",
+      "regex": "^/components/corousal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/corousal(?:/)?$"
+    },
+    {
+      "page": "/components/dark-mode-button",
+      "regex": "^/components/dark\\-mode\\-button(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/dark\\-mode\\-button(?:/)?$"
+    },
+    {
+      "page": "/components/date-picker",
+      "regex": "^/components/date\\-picker(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/date\\-picker(?:/)?$"
+    },
+    {
+      "page": "/components/drop-down-menu",
+      "regex": "^/components/drop\\-down\\-menu(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/drop\\-down\\-menu(?:/)?$"
+    },
+    {
+      "page": "/components/hover-lines",
+      "regex": "^/components/hover\\-lines(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/hover\\-lines(?:/)?$"
+    },
+    {
+      "page": "/components/input-tag-inner",
+      "regex": "^/components/input\\-tag\\-inner(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/input\\-tag\\-inner(?:/)?$"
+    },
+    {
+      "page": "/components/input-tag-outer",
+      "regex": "^/components/input\\-tag\\-outer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/input\\-tag\\-outer(?:/)?$"
+    },
+    {
+      "page": "/components/loader",
+      "regex": "^/components/loader(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/loader(?:/)?$"
+    },
+    {
+      "page": "/components/password-input",
+      "regex": "^/components/password\\-input(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/password\\-input(?:/)?$"
+    },
+    {
+      "page": "/components/progress-bar",
+      "regex": "^/components/progress\\-bar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/progress\\-bar(?:/)?$"
+    },
+    {
+      "page": "/components/range-picker",
+      "regex": "^/components/range\\-picker(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/range\\-picker(?:/)?$"
+    },
+    {
+      "page": "/components/terms-and-conditions",
+      "regex": "^/components/terms\\-and\\-conditions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/terms\\-and\\-conditions(?:/)?$"
+    },
+    {
+      "page": "/components/toaster",
+      "regex": "^/components/toaster(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/toaster(?:/)?$"
+    },
+    {
+      "page": "/getting-started/installation",
+      "regex": "^/getting\\-started/installation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/getting\\-started/installation(?:/)?$"
+    },
+    {
+      "page": "/getting-started/introduction",
+      "regex": "^/getting\\-started/introduction(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/getting\\-started/introduction(?:/)?$"
+    },
+    {
+      "page": "/social-media/github ",
+      "regex": "^/social\\-media/github (?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/social\\-media/github (?:/)?$"
+    },
+    {
+      "page": "/social-media/gmail",
+      "regex": "^/social\\-media/gmail(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/social\\-media/gmail(?:/)?$"
+    },
+    {
+      "page": "/social-media/instagram",
+      "regex": "^/social\\-media/instagram(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/social\\-media/instagram(?:/)?$"
+    },
+    {
+      "page": "/social-media/linked-in",
+      "regex": "^/social\\-media/linked\\-in(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/social\\-media/linked\\-in(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

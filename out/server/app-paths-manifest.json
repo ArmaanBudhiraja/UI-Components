@@ -1,6 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/getting-started/introduction/page": "app/getting-started/introduction/page.js",
-  "/components/code-snippet/page": "app/components/code-snippet/page.js",
-  "/components/loader/page": "app/components/loader/page.js"
-}
